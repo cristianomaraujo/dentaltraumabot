@@ -1,9 +1,9 @@
 import streamlit as st
+pip install openai
 import openai
-import os
 from streamlit_chat import message as msg
 
-openai.api_key = os.getenv("SENHA_OPEN_AI")
+openai.api_key = SENHA_OPEN_AI
 
 # URL da imagem do logo no repositório do GitHub
 logo_url = "https://github.com/cristianomaraujo/dental_trauma_bot/blob/main/Capa.jpg?raw=true"
